@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>СеРвЕр пИзНес</title>
+<script language=JavaScript>
+      <!--
+var message="EROOOOOOOOOOOOOOOOOOOOOOOR!!! Да хуй тебе а не правый клик";
+///////////////////////////////////
+      function clickIE4(){
+      if (event.button==2){
+      alert(message);
+      return false;
+      }
+      }
+function clickNS4(e){
+      if (document.layers||document.getElementById&&!document.all){
+      if (e.which==2||e.which==3){
+      alert(message);
+      return false;
+      }
+      }
+      }
+if (document.layers){
+      document.captureEvents(Event.MOUSEDOWN);
+      document.onmousedown=clickNS4;
+      }
+      else if (document.all&&!document.getElementById){
+      document.onmousedown=clickIE4;
+      }
+document.oncontextmenu=new Function("alert(message);return false")
+// --> 
+      </script>
+ </head>
+ <body>
+   <p><img src="idt.jpg" width="300" height="200"></p>
+   <p><img src="rvsn.jpg" width="1269" height="638"></p>
+<audio autoplay src="privet.mp3"></audio>
+ </body>
+</html>
